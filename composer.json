@@ -2,7 +2,7 @@
     "name": "peanutgraphic/bloxy-ui",
     "description": "BLOXY UI PHP companion — publishes Tailwind preset + Vite plugin paths for the @peanutgraphic/bloxy-ui npm package.",
     "type": "library",
-    "license": "MIT",
+    "license": "proprietary",
     "require": {
         "php": "^8.3",
         "illuminate/contracts": "^12.0",
