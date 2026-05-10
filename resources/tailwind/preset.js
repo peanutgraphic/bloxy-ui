@@ -30,6 +30,12 @@ export default {
                     'text-muted': '#475569',
                     accent: '#0f172a',
                     danger: '#b91c1c',
+                    // Danger-family surface treatments for DangerZone-style
+                    // panels. Distinct from `danger` so callers can paint a
+                    // soft background + strong text without raw red-N refs.
+                    'danger-surface': '#fef2f2',
+                    'danger-border': '#fca5a5',
+                    'danger-strong': '#7f1d1d',
                 },
             },
             fontFamily: {
