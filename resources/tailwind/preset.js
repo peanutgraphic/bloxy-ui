@@ -40,9 +40,12 @@ export default {
                     // The brand color. Mid-value steel-blue. Hero, headings,
                     // primary actions. Not navy, not teal, not slate.
                     steel: '#4a6580',
-                    // Steel at ~60% luminance. Muted labels, secondary text,
-                    // placeholders, captions.
-                    'steel-dim': '#8fa5b8',
+                    // Muted labels, secondary text, placeholders, captions.
+                    // Darkened in M4 (B-17) from #8fa5b8 to pass WCAG AA 4.5:1
+                    // against both bloxy-surface (5.17:1) and bloxy-paper
+                    // (4.78:1). The old value rendered every form label at
+                    // ~2.7:1, failing AA out of the box for every consumer.
+                    'steel-dim': '#547189',
                     // 1px hairline borders + dividers.
                     wire: '#cdd5de',
                     // Agent surfaces. Blue-shifted steel — same family as
